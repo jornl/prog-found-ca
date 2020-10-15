@@ -47,15 +47,19 @@ var people = [
     {
         name: "Petter Smart",
         age: 35,
-        married: false
+        status: false
     },
     {
         name: 'Donald Duck',
         age: 40,
-        married: false
+        status: true
     }
-    // These values are not based on facts. 
 ];
+
+for (var i = 0; i < people.length; i++) {
+    console.log(people[i].age);
+    console.log(people[i].status);
+}
 
 // Question 8:
 
@@ -63,7 +67,7 @@ function whatIDontLike(doesntLike) {
     console.log("I don't like " + doesntLike);
 }
 
-whatIDontLike("looking for fiberoptic cables");
+whatIDontLike("looking for fiberoptic links");
 
 // Question 9:
 
