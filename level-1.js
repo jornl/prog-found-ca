@@ -21,7 +21,7 @@ if (outOfStock === true) {
 
 // Question 4:
 
-var numbersArray = [1,2,3,4];
+var numbersArray = [1, 2, 3, 4, 5];
 
 for (var i = 0; i < numbersArray.length; i++) {
     console.log(numbersArray[i]);
@@ -50,7 +50,7 @@ var people = [
         status: false
     },
     {
-        name: 'Donald Duck',
+        name: "Donald Duck",
         age: 40,
         status: true
     }
@@ -67,13 +67,15 @@ function whatIDontLike(doesntLike) {
     console.log("I don't like " + doesntLike);
 }
 
-whatIDontLike("looking for fiberoptic links");
+whatIDontLike("looking for fiberoptic cables");
 
 // Question 9:
 
 function subtract(integerOne, integerTwo) {
     console.log(integerOne - integerTwo);
 }
+
+subtract(10, 5);
 
 // Question 10:
 
